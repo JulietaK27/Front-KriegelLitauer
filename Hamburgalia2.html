@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamburgalia: hamburguesas ricas para compartir.">
+    <title>Hamburgalia | Sabor para compartir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <a class="marca" href="#inicio" aria-label="Hamburgalia, inicio">
+            <img src="LogoHam.png" alt="Logo de Hamburgalia">
+        </a>
+        <p class="eslogan">Las mejores hamburguesas para compartir</p>
+        <nav class="navegacion" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#datos-curiosos">Datos curiosos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bienvenida seccion" aria-labelledby="titulo-bienvenida">
+            <p class="etiqueta">Hechas para disfrutar</p>
+            <h1 id="titulo-bienvenida">Bienvenidos a Hamburgalia</h1>
+            <p>Una hamburguesería inspirada en una idea familiar y desarrollada con un estilo propio. Preparamos hamburguesas ricas y de calidad, en un ambiente cómodo y moderno. Nos hacen especiales la combinación de sabores, la atención y el cuidado en cada detalle.</p>
+            <a class="boton" href="#menu">Conocé el menú</a>
+        </section>
+
+        <section class="seccion menu" id="menu" aria-labelledby="titulo-menu">
+            <p class="etiqueta">Para todos los gustos</p>
+            <h2 id="titulo-menu">Nuestras hamburguesas</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img src="HamClasica.jpg" alt="Hamburguesa clásica con queso, lechuga y tomate" loading="lazy">
+                    <div class="tarjeta-contenido">
+                        <h3>Clásica</h3>
+                        <p>Carne, queso cheddar, lechuga, tomate y cebolla.</p>
+                        <a class="enlace-boton" href="#contacto">Quiero conocer más</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="HamDoble.jpg" alt="Hamburguesa doble con queso y salsa BBQ" loading="lazy">
+                    <div class="tarjeta-contenido">
+                        <h3>Doble BBQ</h3>
+                        <p>Doble carne, doble queso y salsa especial.</p>
+                        <a class="enlace-boton" href="#contacto">Quiero conocer más</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="HamEspecial.jpg" alt="Hamburguesa especial con doble carne, queso y bacon" loading="lazy">
+                    <div class="tarjeta-contenido">
+                        <h3>Especial</h3>
+                        <p>Doble carne, doble queso y crocante bacon.</p>
+                        <a class="enlace-boton" href="#contacto">Quiero conocer más</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion curiosidades" id="datos-curiosos" aria-labelledby="titulo-datos">
+            <p class="etiqueta">¿Sabías que?</p>
+            <h2 id="titulo-datos">Datos curiosos</h2>
+            <ul>
+                <li>La hamburguesa es una de las comidas más populares del mundo.</li>
+                <li>El queso cheddar es uno de los ingredientes más utilizados.</li>
+                <li>También existen versiones vegetarianas y veganas.</li>
+            </ul>
+            <p>Conocé más sobre su historia en <a href="https://es.wikipedia.org/wiki/Hamburguesa" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</p>
+        </section>
+
+        <section class="seccion contacto" id="contacto" aria-labelledby="titulo-contacto">
+            <p class="etiqueta">Estamos para ayudarte</p>
+            <h2 id="titulo-contacto">Contacto</h2>
+            <p>Mandanos tus consultas o comentarios a <a href="mailto:hamburgaliaOK@gmail.com">hamburgaliaOK@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p><strong>Hamburgalia</strong> — Sabor y calidad en cada hamburguesa.</p>
+        <p>Trabajo realizado por Julieta Kriegel L · 3°C · 2026</p>
+    </footer>
+</body>
+</html>
