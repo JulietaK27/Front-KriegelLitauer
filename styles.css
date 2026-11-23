@@ -4,7 +4,7 @@
     --rojo: #AB0B0B;
     --marron: #AA7444;
     --texto: #9F192C;
-    --blanco: #FFE8D6;
+    --blanco: #ffffff;
     --fuente: "Rubik", Arial, sans-serif;
     --espacio: 1rem;
     --radio: 1rem;
@@ -16,7 +16,7 @@ html { scroll-behavior: smooth; }
 
 body {
     margin: 0;
-    background: var(--crema);
+    background: var(--blanco);
     color: var(--texto);
     font-family: var(--fuente);
     line-height: 1.6;
@@ -95,7 +95,7 @@ a:focus-visible, .boton:focus-visible, .enlace-boton:focus-visible {
 
 .boton:hover, .enlace-boton:hover { background: var(--rojo-oscuro); color: var(--crema); transform: translateY(-2px); }
 
-.menu { background: var(--blanco); text-align: center; }
+.menu { background: var(--crema); text-align: center; }
 .menu > .etiqueta { margin-top: 0; }
 .tarjetas { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 1.5rem; text-align: left; }
 .tarjeta { overflow: hidden; border-radius: var(--radio); background: var(--crema); box-shadow: 0 4px 14px rgb(159 25 44 / 12%); }
@@ -105,10 +105,10 @@ a:focus-visible, .boton:focus-visible, .enlace-boton:focus-visible {
 .tarjeta p { min-height: 3.2rem; margin: 0 0 1rem; }
 .enlace-boton { font-size: .9rem; }
 
-.curiosidades { background: var(--crema); }
+.curiosidades { background: var(--blanco); }
 .curiosidades ul { padding-left: 1.3rem; }
 .curiosidades li { margin-bottom: .6rem; }
-.contacto { text-align: center; }
+.contacto { text-align: center; background: var(--crema);}
 .contacto p { margin-right: auto; margin-left: auto; }
 .pie { padding: 1.5rem var(--espacio); background: var(--rojo-oscuro); color: var(--blanco); text-align: center; }
 .pie p { margin: .3rem 0; }
